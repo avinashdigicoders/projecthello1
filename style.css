@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 40px;
+}
+.h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px ;
+
+}
+.i{
+    font-size: 15px ;
+
+}
+.search{
+    border-radius: 10px;
+    padding:10px;
+    width: 300px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+.profile,.wishlist,.cart{
+    text-align: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.time{
+    width: 100%;
+    height: 65px;
+    background-color: #1d85fc2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+.T-color{
+    color: red;
+    
+}
+.offer1{
+    width: 100%;
+    margin-top: 25px;
+}
+.offer1 img{
+    width: 100%;
+}
+.full-img{
+    width: 100%;
+    display: flex;
+}
+.img1{
+width: 50%;
+}
+.img1 img{
+    width: 100%;
+}
+.img2{
+    width: 50%;
+}
+.img2 img{
+   width: 100%; 
+}
+.copon{
+    width: 100%;
+}
+.copon img{
+    width: 100%;
+}
+.flat{
+    width: 100%;
+    display: flex;
+}
+.flat100{
+    width: 50%;
+}
+.flat100 img{
+    width: 100%;
+}
+.flat200{
+    width: 50%;
+}
+.flat200 img{
+    width: 100%;
+}
+.deal{
+    width:100% ;
+    text-align: center;
+}
+.opt{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    /* border: 1px SOLID red; */
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.box{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box img{
+    width: 15%;
+}
+.footer{
+ width: 100%;
+ height: 450px;
+ background-color: aliceblue; 
+ margin-top: 50px;
+ padding: 50px; 
+ display: flex;
+}
+.profit{
+    margin-left: 100px;
+}
+.ex{
+    margin-left: 100px;
+}
+.button{
+    margin-left: 100PX;
+  text-align: start;
+  margin-left: 0px;
+    
+  
+}
+.playstore, .appstore, .TOUCH{
+ height: 50px;
+width: 120px;
+margin-left: 100px;
+margin-top: 20px;
+justify-content: space-evenly;
+}
+.applicatio{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin-left: 300px;
+}
+.fa-brands{
+    margin-left: 70px;
+}
